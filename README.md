@@ -34,3 +34,6 @@ Placing the code above in an object's init field will create a taleportation poi
 The other custom Zeus module allows curator to check currently active teleportation FOR HIS SIDE.
 
 The teleportation point will be removed from an object if it is killed or deleted. Custom settings can be adjusted from Addon options >> Reeveli's teleportation system. See the attached example mission for pratical demonstration.
+
+## License
+Scripts included in this repository are under [APL-SA](https://www.bohemia.net/community/licenses/arma-public-license-share-alike) license.
