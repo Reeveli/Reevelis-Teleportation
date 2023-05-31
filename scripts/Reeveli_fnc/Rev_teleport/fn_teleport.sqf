@@ -13,6 +13,8 @@
  * Example:
  * [player, _object] call Rev_tp_fnc_teleport
  *
+ 1.1
+	Player placement radius increased to 12 meters
  */
 
 params [
@@ -32,7 +34,7 @@ player enableSimulation false;
 
 [
 	{
-		player setPos ([_this # 0, 5] call CBA_fnc_randPos)
+		player setPos ([_this # 0, 12] call CBA_fnc_randPos)
 	},
 	[_object],
 	(Rev_tp_action_time * 0.5)
